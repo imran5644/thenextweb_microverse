@@ -108,13 +108,29 @@ display: flex;
 
 .news-img {
     width: 30%;
-    height: 50%;
+    height: 160px;
 }
 
 .news-post-details {
     flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2%;
 }
 
 .news-title {
     font-size: 2rem;
+    font-weight: 500;
+}
+
+.news-title > a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-author {
+    padding-top: 2%;
+    font-size: 2rem;
+    font-weight: 100;
+    color: grey;
+
 }
