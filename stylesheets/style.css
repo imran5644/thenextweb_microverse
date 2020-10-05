@@ -4,6 +4,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.black {
+    color: black;
+}
+
+.grey {
+    color: grey;
+}
+
+.lightpink {
+    background-color: #FFC0CB;
+}
+
 h2 {
     color: white;
     font-size: 3.5rem;
@@ -132,5 +144,85 @@ display: flex;
     font-size: 2rem;
     font-weight: 100;
     color: grey;
-
 }
+
+.funds-info {
+    color: orangered;
+    padding: 2rem;
+}
+
+.funds-info h3 {
+    font-size: 4rem;
+    width: 750px;
+    height: auto;
+    font-weight: 900;
+    line-height: 5rem;
+    margin-top: 1rem;
+}
+
+.font-styling p{
+    margin-top: 1rem;
+}
+
+.funds-info img{
+height: 200px;
+width: 200px;
+position: absolute;
+margin-left: 30px;
+margin-top: 2rem;
+}
+
+.spacing {
+font-weight: 100;
+padding-left: 18rem;
+}
+
+.ico-funds h4{
+    background-color: orangered;
+    height: 8rem;
+    color: white;
+    font-size: 4rem;
+    padding-left: 18rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+}
+
+.funds-raises-detail {
+    background-color: lightpink;
+    height: 8rem;
+    font-size: 3rem;
+}
+
+.address-details {
+    background-color: #fff3e6;
+    color: #383838;
+    height: 30rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+}
+
+.address-details p{
+    padding-top: 2rem;
+}
+
+.ico-details {
+    border-top: 1px solid pink;
+    padding-left: 2rem;
+}
+
+.ico-details .tech {
+color: darkgray;
+}
+
+.address-details p {
+    margin-top: 3rem;
+}
+
+.icon-tag,
+.breifcase,
+.Company-name,
+.address {
+    padding-left: 2rem;
+}
+
