@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar ul {
+    font-size: 12px;
+    margin-left: -6px;
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+.menu-bar  li {
+    margin-left: 6px;
+}
+
+.terms {
+    width: 130px;
+}
+
+.menu-bar ul,
+.menu-bar2 ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-bar2 ul{
+    background-color: white;
+    color: black;
+}
