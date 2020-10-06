@@ -4,6 +4,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 .black {
   color: black;
 }
@@ -22,48 +30,49 @@ h2 {
   font-weight: bold;
 }
 
-nav img {
-  background-color: black;
-  display: block;
-  height: 70px;
-  position: relative;
-  width: 70px;
-  will-change: transform;
-  z-index: 999;
-  padding-left: 1rem;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
 .nav-bar {
   justify-content: space-between;
+  height: 8vh;
+  width: 100vw;
+  border-bottom: 0.5px solid lightgrey;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  background-color: white;
+}
+
+.nav-logo {
+  background-color: black;
+  height: 8vh;
+  width: 30vw;
+}
+
+.nav-logo > img {
+  align-self: center;
+  padding-left: 1rem;
+  width: 4.5rem;
+  height: 3.5rem;
 }
 
 .search-icon {
   width: 8vh;
-  color: grey;
+  color: lightgrey;
   border-left: 1px solid grey;
 }
 
 .icon i {
-  margin-top: 20px;
-  margin-left: 10px;
   font-size: 1.5rem;
   height: 8vh;
   width: 40px;
+  margin-top: 30%;
+  margin-left: 5%;
+  text-align: center;
 }
 
 .navbar-icon {
-  width: 8vh;
+  height: 8vh;
   color: red;
-  border-left: 1px solid grey;
-  align-self: center;
+  border-left: 0.5px solid grey;
 }
 
 .headline-container {
@@ -128,6 +137,7 @@ nav img {
 .bg-image12 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/call-of-duty-warzone-modern-warfare-season-6.png');
 }
+
 .post-details {
   color: white;
   font-size: 0.8rem;
@@ -136,6 +146,13 @@ nav img {
 
 .post-details > * {
   padding: 0% 2% 0% 0%;
+}
+
+.email > i,
+.social-icons > a {
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
 }
 
 .post-details > p > i {
@@ -248,7 +265,7 @@ nav img {
 }
 
 .article-hardfork > div > p {
-  font-size: 1.6rem;
+  font-size: 0.8rem;
   color: orangered;
   font-weight: bold;
 }
@@ -291,10 +308,6 @@ nav img {
   height: 80%;
 }
 
-.article-hardfork > div > p {
-  font-size: 0.8rem;
-}
-
 .bulleted-articles {
   padding: 1.5rem;
   width: 85vw;
@@ -318,6 +331,9 @@ nav img {
 
 .bottom-section {
   background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
 
 .bottom-section > span > img {
@@ -333,13 +349,6 @@ nav img {
 
 .email {
   justify-content: center;
-}
-
-.email > i,
-.social-icons > a {
-  display: inline-block;
-  padding: 0.5rem;
-  text-decoration: none;
 }
 
 .email > a > i,
@@ -364,12 +373,6 @@ nav img {
   color: #838f91;
   font-weight: 300;
   font-size: 0.8rem;
-}
-
-.bottom-section {
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
 }
 
 .bottom-section > span {
