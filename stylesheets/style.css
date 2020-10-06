@@ -1,279 +1,277 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .black {
-    color: black;
+  color: black;
 }
 
 .grey {
-    color: grey;
+  color: grey;
 }
 
 .lightpink {
-    background-color: #FFC0CB;
+  background-color: #ffc0cb;
 }
 
 h2 {
-    color: white;
-    font-size: 3.5rem;
-    font-weight: bold;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
 nav img {
-    background-color: black;
-    display: block;
-    height: 150px;
-    position: relative;
-    width: 200px;
-    will-change: transform;
-    z-index: 999;
-    padding-left: 3rem;
-    padding-right: 3rem;
+  background-color: black;
+  display: block;
+  height: 150px;
+  position: relative;
+  width: 200px;
+  will-change: transform;
+  z-index: 999;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .d-flex {
-display: flex;
+  display: flex;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .nav-bar {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .search-icon {
-    width: 8vh;
-    color: grey;
-    border-left: 1px solid grey;
+  width: 8vh;
+  color: grey;
+  border-left: 1px solid grey;
 }
 
 .icon i {
-    font-size: 3rem;
-    height: 8vh;
-    width: 40px;
+  font-size: 3rem;
+  height: 8vh;
+  width: 40px;
 }
 
 .navbar-icon {
-    width: 8vh;
-    color: red;
-    border-left: 1px solid grey;
-    align-self: center;
-
+  width: 8vh;
+  color: red;
+  border-left: 1px solid grey;
+  align-self: center;
 }
 
 .headline-container {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .headline-post {
-    background-size:  100% 100%;
-    background-repeat: no-repeat;
-    height: 26%;
-    width: 85vw;
-    padding:2rem;
-    margin-bottom: 2rem;
-    justify-content: flex-end;
-    flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 26%;
+  width: 85vw;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .bg-image1 {
-    background-image:url('https://bit.ly/2GzQLFM');
+  background-image: url('https://bit.ly/2GzQLFM');
 }
 
 .bg-image2 {
-    background-image: url('https://bit.ly/3ixcqM0');
+  background-image: url('https://bit.ly/3ixcqM0');
 }
- 
+
 .bg-image3 {
-    background-image: url('https://bit.ly/2Sqlyrn');
+  background-image: url('https://bit.ly/2Sqlyrn');
 }
 
 .bg-image4 {
-    background-image: url('https://rb.gy/1g9gjj')
+  background-image: url('https://rb.gy/1g9gjj');
 }
 
 .post-details {
-    color: white;
-    font-size: 2rem;
-    justify-content: flex-start;
+  color: white;
+  font-size: 2rem;
+  justify-content: flex-start;
 }
 
 .post-details > * {
-    padding: 0% 2% 0% 0%;
+  padding: 0% 2% 0% 0%;
 }
 
 .post-details > p > i {
-    padding: 0% 1% 0% 0%;
+  padding: 0% 1% 0% 0%;
 }
 
 .section-title {
-    padding-bottom: 2rem;
-    color: red;
-    font-size: 3.5rem;
+  padding-bottom: 2rem;
+  color: red;
+  font-size: 3.5rem;
 }
 
 .news-container {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .news-post {
-    width: 85vw;
-    margin-bottom: 2rem;
+  width: 85vw;
+  margin-bottom: 2rem;
 }
 
 .news-img {
-    width: 30%;
-    height: 160px;
+  width: 30%;
+  height: 160px;
 }
 
 .news-post-details {
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-left: 2%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 2%;
 }
 
 .news-title {
-    font-size: 2rem;
-    font-weight: 500;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .news-title > a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .news-author {
-    padding-top: 2%;
-    font-size: 2rem;
-    font-weight: 100;
-    color: grey;
+  padding-top: 2%;
+  font-size: 2rem;
+  font-weight: 100;
+  color: grey;
 }
 
 .funds-info {
-    color: orangered;
-    padding: 2rem;
+  color: orangered;
+  padding: 2rem;
 }
 
 .funds-info h3 {
-    font-size: 4rem;
-    width: 750px;
-    height: auto;
-    font-weight: 900;
-    line-height: 5rem;
-    margin-top: 1rem;
+  font-size: 4rem;
+  width: 750px;
+  height: auto;
+  font-weight: 900;
+  line-height: 5rem;
+  margin-top: 1rem;
 }
 
-.font-styling p{
-    margin-top: 1rem;
+.font-styling p {
+  margin-top: 1rem;
 }
 
-.funds-info img{
-height: 200px;
-width: 200px;
-position: absolute;
-margin-left: 30px;
-margin-top: 2rem;
+.funds-info img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 2rem;
 }
 
 .spacing {
-font-weight: 100;
-padding-left: 18rem;
+  font-weight: 100;
+  padding-left: 18rem;
 }
 
-.ico-funds h4{
-    background-color: orangered;
-    height: 8rem;
-    color: white;
-    font-size: 4rem;
-    padding-left: 18rem;
-    padding-top: 2rem;
-    margin-top: 4rem;
+.ico-funds h4 {
+  background-color: orangered;
+  height: 8rem;
+  color: white;
+  font-size: 4rem;
+  padding-left: 18rem;
+  padding-top: 2rem;
+  margin-top: 4rem;
 }
 
 .funds-raises-detail {
-    background-color: lightpink;
-    height: 8rem;
-    font-size: 3rem;
+  background-color: lightpink;
+  height: 8rem;
+  font-size: 3rem;
 }
 
 .address-details {
-    background-color: #fffaf8;
-    color: #383838;
-    height: 30rem;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    margin-top: -3rem;
+  background-color: #fffaf8;
+  color: #383838;
+  height: 30rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
 }
 
-.address-details p{
-    padding-top: 1rem;
+.address-details p {
+  padding-top: 1rem;
 }
 
 .ico-details {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .ico-details .tech {
-color: darkgray;
+  color: darkgray;
+}
+
+.article-hardfork > div > p {
+  font-size: 1.6rem;
+  color: orangered;
+  font-weight: bold;
 }
 
 .address-details p:nth-child(1) {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
-
 
 .icon-tag,
 .breifcase,
 .Company-name,
 .address {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .hard-fork {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hard-fork-container .headline-post {
-    width: 87vw;
-    height: 30rem;
+  width: 87vw;
+  height: 30rem;
 }
 
 .article-hardfork > div {
-    width: 70%;
+  width: 70%;
 }
 
 .article-hardfork > div > h3 {
-    font-size: 2rem;
-    font-weight: 300;
-    color: orangered;
-}
-
-.article-hardfork > div > p {
-    font-size: 1.6rem;
-    color: orangered;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: 300;
+  color: orangered;
 }
 
 .article-hardfork > img {
-    width: 30%;
+  width: 30%;
 }
 
 .hard-fork-container > ul {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hard-fork-container > ul > li {
-    border-bottom: 1px solid lightcoral;
-    padding: 2rem;
+  border-bottom: 1px solid lightcoral;
+  padding: 2rem;
 }
 
 .hard-fork-container > ul > li > a {
-    text-decoration: none;
-    color: lightslategray;
-    font-weight: 300;
+  text-decoration: none;
+  color: lightslategray;
+  font-weight: 300;
 }
