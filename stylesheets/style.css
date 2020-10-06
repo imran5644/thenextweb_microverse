@@ -31,7 +31,6 @@ nav img {
   will-change: transform;
   z-index: 999;
   padding-left: 1rem;
-  /* padding-right: 1rem; */
 }
 
 .d-flex {
@@ -68,16 +67,16 @@ nav img {
 }
 
 .headline-container {
-  padding: 0.7rem;
+  padding: 0.8rem;
 }
 
 .headline-post {
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 24vh;
-  width: 77vw;
-  padding: 0.28rem 1rem 0.28rem 1rem;
-  margin-bottom: 2rem;
+  height: 26vh;
+  width: 85vw;
+  padding: 0.28rem 1rem 0.8rem 1rem;
+  margin-bottom: 0.6rem;
   justify-content: flex-end;
   flex-direction: column;
 }
@@ -100,7 +99,7 @@ nav img {
 
 .post-details {
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
   justify-content: flex-start;
 }
 
@@ -113,34 +112,35 @@ nav img {
 }
 
 .section-title {
-  padding-bottom: 2rem;
+  padding: 2rem 0 1rem 0.1rem;
   color: red;
-  font-size: 3.5rem;
+  font-size: 1.6rem;
 }
 
 .news-container {
-  padding: 2rem;
+  padding: 0.5rem 0 0 1rem;
 }
 
 .news-post {
-  width: 85vw;
-  margin-bottom: 2rem;
+  width: 90vw;
+  margin-bottom: 1rem;
 }
 
 .news-img {
-  width: 30%;
-  height: 160px;
+  width: 25%;
+  height: 70px;
 }
 
 .news-post-details {
   flex-direction: column;
   justify-content: flex-start;
   padding-left: 2%;
+  padding-top: 0;
 }
 
 .news-title {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .news-title > a {
@@ -150,69 +150,62 @@ nav img {
 
 .news-author {
   padding-top: 2%;
-  font-size: 2rem;
+  font-size: 0.8rem;
   font-weight: 100;
   color: grey;
 }
 
-.funds-info {
-  color: orangered;
-  padding: 2rem;
-}
-
-.funds-info h3 {
-  font-size: 4rem;
-  width: 750px;
-  height: auto;
-  font-weight: 900;
-  line-height: 5rem;
-  margin-top: 1rem;
-}
-
 .font-styling p {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: red;
+}
+
+.funds-info {
+  padding: 0.8rem;
 }
 
 .funds-info img {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
   position: absolute;
-  margin-left: 30px;
-  margin-top: 2rem;
+  margin-left: 15px;
+  margin-top: 0.8rem;
 }
 
 .spacing {
-  font-weight: 100;
-  padding-left: 18rem;
+  font-weight: bold;
+  padding-left: 7rem;
+  padding-top: 0.4rem;
 }
 
 .ico-funds h4 {
   background-color: orangered;
-  height: 8rem;
+  height: 2rem;
   color: white;
-  font-size: 4rem;
-  padding-left: 18rem;
-  padding-top: 2rem;
-  margin-top: 4rem;
+  font-size: 0.8rem;
+  padding-left: 7rem;
+  padding-top: 1rem;
+  margin-top: 2rem;
 }
 
 .funds-raises-detail {
   background-color: lightpink;
-  height: 8rem;
-  font-size: 3rem;
+  height: 4rem;
+  font-size: 1rem;
 }
 
 .address-details {
   background-color: #fffaf8;
   color: #383838;
-  height: 30rem;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  margin-top: -3rem;
+  height: 11rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+  margin-top: -1.5rem;
 }
 
 .address-details p {
-  padding-top: 1rem;
+  padding-top: 0.8rem;
 }
 
 .ico-details {
@@ -230,7 +223,7 @@ nav img {
 }
 
 .address-details p:nth-child(1) {
-  margin-top: 3rem;
+  margin-top: 1.4rem;
 }
 
 .icon-tag,
@@ -241,39 +234,49 @@ nav img {
 }
 
 .hard-fork {
-  padding: 2rem;
+  padding: 0.7rem;
 }
 
 .hard-fork-container .headline-post {
-  width: 87vw;
-  height: 30rem;
+  width: 85vw;
+  height: 12rem;
 }
 
 .article-hardfork > div {
   width: 70%;
+  background-color: #fffaf8;
+  padding: 0.6rem;
+  margin-top: -2%;
 }
 
 .article-hardfork > div > h3 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 300;
   color: orangered;
 }
 
 .article-hardfork > img {
   width: 30%;
+  height: 80%;
 }
 
-.hard-fork-container > ul {
-  padding: 2rem;
+.article-hardfork > div > p {
+  font-size: 0.8rem;
 }
 
-.hard-fork-container > ul > li {
+.bulleted-articles {
+  padding: 1.5rem;
+  width: 85vw;
+}
+
+.bulleted-articles > li {
   border-bottom: 1px solid lightcoral;
-  padding: 2rem;
+  padding: 0.8rem 0.8rem 0.5rem 0.8rem;
 }
 
-.hard-fork-container > ul > li > a {
+.bulleted-articles > li > a {
   text-decoration: none;
   color: lightslategray;
   font-weight: 300;
+  font-size: 0.8rem;
 }
