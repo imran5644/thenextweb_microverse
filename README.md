@@ -1,16 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Responsive-Design-orange)
+![](https://img.shields.io/badge/HTML-CSS-blue)
 
 # The Next Web Clone - A Microverse Project
 
 A clone of The Next Web landing page made for the Microverse FullStack program.
+This is a responsive site and will scale as needed to different devices.
 
 ![screenshot](screenshot.png)
 
 
 ## Built With
 
-- HTML
-- CSS
+- ![](https://img.shields.io/badge/CSS-blue)
+- ![](https://img.shields.io/badge/HTML-red)
 
 ## Live Demo
 

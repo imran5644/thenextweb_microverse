@@ -311,3 +311,69 @@ nav img {
   font-weight: 300;
   font-size: 0.8rem;
 }
+
+.footer-container {
+  background-color: #131313;
+}
+
+.bottom-section {
+  background-color: black;
+}
+
+.bottom-section > span > img {
+  width: 37px;
+  height: 9px;
+  padding-right: 0.2rem;
+}
+
+.social-icons {
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.email {
+  justify-content: center;
+}
+
+.email > i,
+.social-icons > a {
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.email > a > i,
+.social-icons > a > i {
+  font-size: 1.8rem;
+  color: white;
+}
+
+.footer-links {
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.footer-links > ul > li {
+  display: inline;
+  padding: 0.2rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #838f91;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.bottom-section {
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.bottom-section > span {
+  color: #838f91;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
