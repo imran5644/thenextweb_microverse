@@ -18,20 +18,20 @@
 
 h2 {
   color: white;
-  font-size: 3.5rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 nav img {
   background-color: black;
   display: block;
-  height: 150px;
+  height: 70px;
   position: relative;
-  width: 200px;
+  width: 70px;
   will-change: transform;
   z-index: 999;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1rem;
+  /* padding-right: 1rem; */
 }
 
 .d-flex {
@@ -53,7 +53,9 @@ nav img {
 }
 
 .icon i {
-  font-size: 3rem;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 1.5rem;
   height: 8vh;
   width: 40px;
 }
@@ -66,15 +68,15 @@ nav img {
 }
 
 .headline-container {
-  padding: 2rem;
+  padding: 0.7rem;
 }
 
 .headline-post {
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 26%;
-  width: 85vw;
-  padding: 2rem;
+  height: 24vh;
+  width: 77vw;
+  padding: 0.28rem 1rem 0.28rem 1rem;
   margin-bottom: 2rem;
   justify-content: flex-end;
   flex-direction: column;
@@ -98,7 +100,7 @@ nav img {
 
 .post-details {
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   justify-content: flex-start;
 }
 
