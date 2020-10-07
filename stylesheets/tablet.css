@@ -88,3 +88,20 @@
   border: 1 px solid black;
   margin-left: 0.5rem;
 }
+
+.newspost-container {
+  display: flex;
+  width: 220px;
+  height: 290px;
+}
+
+.news-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-post img {
+  height: 180px;
+  width: 220px;
+  margin-left: 10px;
+}
