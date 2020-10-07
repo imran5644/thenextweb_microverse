@@ -78,6 +78,17 @@
   height: 18.9vh;
 }
 
+.bg-image4 {
+  background-image: url('https://rb.gy/1g9gjj');
+  background-size: contain;
+}
+
+.bg-image5 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/gsuite-google-workspace-gmail-docs-meet-368x276.jpg');
+  background-size: contain;
+}
+
+
 .headline-container {
   display: flex;
 }
@@ -126,4 +137,16 @@
 .Company-name {
   padding: 0;
   margin: 0;
+}
+
+.hardfork-details {
+  display: flex; 
+  width: 50vw;
+  height: auto;
+  border: 2px solid black;
+}
+
+.hardfork-column {
+  display: flex;
+  flex-direction: column;
 }
