@@ -107,16 +107,20 @@ h2 {
   background-image: url('https://bit.ly/2Sqlyrn');
 }
 
-.bg-image4 {
+/* .bg-image4 {
   background-image: url('https://rb.gy/1g9gjj');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 200px;
-  width: 600px;
+  /* height: 200px;
+  width: 600px; */ */
 }
 
 .bg-image5 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/gsuite-google-workspace-gmail-docs-meet-368x276.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* height: 200px;
+  width: 600px; */
 }
 
 .bg-image6 {
@@ -390,6 +394,30 @@ h2 {
   font-weight: 300;
 }
 
+.hardfork-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
 .article-hardfork {
-  padding-left: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.new-text {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ".latest .new-text-img"
+    ".inside-text .new-text-img";
+}
+
+.new-text > img {
+  width: px;
+  height: 40px;
+}
+
+.bg-image4 > span {
+  color: white;
 }
