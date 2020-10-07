@@ -58,7 +58,33 @@
   display: none;
 }
 
+.bg-image1 {
+  background-image: url('https://bit.ly/2GzQLFM');
+  width: 50vw;
+  height: 40vh;
+  margin-top: 5rem;
+}
+
+.bg-image2 {
+  background-image: url('https://bit.ly/3ixcqM0');
+  width: 30vw;
+  height: 18.5vh;
+  margin-top: 5rem;
+}
+
+.bg-image3 {
+  background-image: url('https://bit.ly/2Sqlyrn');
+  width: 30vw;
+  height: 18.9vh;
+}
+
 .headline-container {
   display: flex;
-  
+}
+
+.two-column {
+  display: flex;
+  flex-direction: column;
+  border: 1 px solid black;
+  margin-left: 0.5rem;
 }
