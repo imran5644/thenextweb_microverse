@@ -1,58 +1,64 @@
-.nav-logo {
-  width: 15vw;
+.nav-bar {
+  flex-grow: 1;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 0.5rem;
 }
 
 .menu-bar {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  flex-grow: 4;
 }
 
-.menu-bar ul {
-  font-size: 12px;
-  margin-left: -6px;
-  color: white;
-  width: 100%;
-  background-color: black;
-  height: 50%;
-  list-style-type: none;
+.nav-logo {
+  flex-grow: 1;
+  width: 17%;
 }
 
-.menu-bar > ul:nth-child(1) {
+.top-navlinks {
   display: flex;
   justify-content: space-between;
-  width: 100vw;
+  font-size: 0.8rem;
+  background-color: black;
+  list-style-type: none;
+  padding: 0.6rem;
 }
 
 .menu-bar > ul:nth-child(2) {
+  list-style-type: none;
   text-transform: uppercase;
-  color: grey;
   display: flex;
   background-color: white;
   align-items: center;
   justify-content: flex-start;
-  padding: 1rem;
   font-size: 1rem;
 }
 
-.magnifier {
-  display: inline-block;
-  margin-left: 20%;
+.bottom-navlinks > li {
+  padding: 0.7rem;
 }
 
-.menu-bar li {
-  margin-left: 6px;
+.top-navlink,
+.bottom-navlink {
+  text-decoration: none;
+  color: grey;
+}
+
+.magnifier {
+  text-align: center;
+  flex-grow: 2;
 }
 
 .terms {
-  width: 130px;
-}
-
-.menu-bar2 ul {
-  background-color: white;
-  color: black;
+  padding-right: 0.8rem;
 }
 
 .search-box {
   display: none;
+}
+
+.headline-container {
+  display: flex;
+  
 }
