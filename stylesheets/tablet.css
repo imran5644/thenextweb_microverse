@@ -150,3 +150,13 @@
   display: flex;
   flex-direction: column;
 }
+
+
+/* HERE STARTS HARD FORK SECTION*/
+
+.hardfork-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+
+}
