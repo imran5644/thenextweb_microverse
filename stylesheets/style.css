@@ -109,6 +109,7 @@ h2 {
 
 .bg-image4 {
   background-image: url('https://rb.gy/1g9gjj');
+  border: 2px solid green;
 }
 
 .bg-image5 {
