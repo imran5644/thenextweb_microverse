@@ -85,7 +85,7 @@
 .two-column {
   display: flex;
   flex-direction: column;
-  border: 1 px solid black;
+  border: 1px solid black;
   margin-left: 0.5rem;
 }
 
@@ -104,4 +104,26 @@
   height: 180px;
   width: 220px;
   margin-left: 10px;
+}
+
+.ico-funds-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boost,
+.malomo,
+.venture {
+  width: 30%;
+  height: 100%;
+}
+
+.malomo > div > div {
+  height: 51.8px;
+}
+
+.address,
+.Company-name {
+  padding: 0;
+  margin: 0;
 }
