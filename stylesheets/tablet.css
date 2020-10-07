@@ -96,7 +96,6 @@
 .two-column {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   margin-left: 0.5rem;
 }
 
@@ -143,12 +142,12 @@
   display: flex; 
   width: 50vw;
   height: auto;
-  border: 2px solid black;
 }
 
 .hardfork-column {
   display: flex;
   flex-direction: column;
+
 }
 
 
