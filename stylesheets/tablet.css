@@ -78,17 +78,6 @@
   height: 18.9vh;
 }
 
-.bg-image4 {
-  background-image: url('https://rb.gy/1g9gjj');
-  background-size: contain;
-}
-
-.bg-image5 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/gsuite-google-workspace-gmail-docs-meet-368x276.jpg');
-  background-size: contain;
-}
-
-
 .headline-container {
   display: flex;
   padding-top: 1rem;
