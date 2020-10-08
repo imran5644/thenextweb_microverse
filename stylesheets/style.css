@@ -174,10 +174,10 @@ h2 {
 .news-container {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: 1fr; */
   justify-items: center;
   align-items: center;
   gap: 1rem;
+  width: 95vw;
 }
 
 .news-container > h3 {
