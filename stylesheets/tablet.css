@@ -124,7 +124,7 @@
 
 }
 
-main > section:nth-child(5),
+main > section:nth-child(2),
 main > section:nth-child(5) {
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 1rem;
