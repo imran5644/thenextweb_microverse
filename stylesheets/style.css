@@ -133,7 +133,7 @@ h2 {
   font-size: 1.6rem;
 }
 
-.news-container {
+/* .news-container {
   padding: 0.5rem 0 0 1rem;
 }
 
@@ -169,6 +169,48 @@ h2 {
   font-size: 0.8rem;
   font-weight: 100;
   color: grey;
+} */
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: 1fr; */
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.news-container > h3 {
+  justify-self: start;
+  padding-left: 1rem;
+}
+
+.news-post {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "news-post-img news-post-title"
+    "none news-post-title";
+  justify-items: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.news-post > img {
+  width: 75px;
+  height: 75px;
+}
+
+.news-post-details {
+  display: inline-block;
+  padding-top: 0.6rem;
+  font-weight: 300;
+  color: lightgrey;
+  font-size: 13px;
+}
+
+.news-post-title {
+  font-weight: 700;
 }
 
 .font-styling p {
