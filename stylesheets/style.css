@@ -107,30 +107,6 @@ h2 {
   background-image: url('https://bit.ly/2Sqlyrn');
 }
 
-/* .bg-image4 {
-  background-image: url('https://rb.gy/1g9gjj');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  /* height: 200px;
-  width: 600px; */ */
-}
-
-.bg-image5 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/gsuite-google-workspace-gmail-docs-meet-368x276.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  /* height: 200px;
-  width: 600px; */
-}
-
-.bg-image6 {
-  background-image: url('https://thenextweb.com/wp-content/blogs.dir/1/files/2020/10/playstation-ps5-xbox-series-x-console-wars-sony-microsoft-368x276.jpg');
-}
-
-.bg-image7 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/Microsoft-Bing-368x276.jpg');
-}
-
 .bg-image8 {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg');
 }
@@ -413,10 +389,6 @@ h2 {
     ".inside-text .new-text-img";
 }
 
-.new-text > img {
-  width: px;
-  height: 40px;
-}
 
 .bg-image4 > span {
   color: white;
@@ -435,4 +407,34 @@ h2 {
   position: absolute;
   color: white;
   width: 300px;
+}
+
+.latest  {
+  width: 210px;
+  background-color: #fffaf8;
+  color: orangered;
+}
+
+.new-text img {
+  width: 100px;
+  height:100px;
+  margin-left: -6.4px;
+}
+
+.grey {
+  color: gray;
+}
+
+.bullet-articles li{
+  width: 320px;
+  border-bottom: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+}
+
+.bullet-articles a {
+  text-decoration: none;
+  color: black;
 }
