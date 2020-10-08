@@ -91,6 +91,7 @@
 
 .headline-container {
   display: flex;
+  padding-top: 1rem;
 }
 
 .two-column {

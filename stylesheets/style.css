@@ -81,7 +81,7 @@ h2 {
 }
 
 .headline-container {
-  padding: 0.8rem;
+  padding-top: 4rem;
 }
 
 .headline-post {
@@ -96,35 +96,15 @@ h2 {
 }
 
 .bg-image1 {
-  background-image: url('https://bit.ly/2GzQLFM');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/2GzQLFM');
 }
 
 .bg-image2 {
-  background-image: url('https://bit.ly/3ixcqM0');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/3ixcqM0');
 }
 
 .bg-image3 {
-  background-image: url('https://bit.ly/2Sqlyrn');
-}
-
-.bg-image8 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13-368x276.jpg');
-}
-
-.bg-image9 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/mixed-reality-spatial-computing-gq-368x276.png');
-}
-
-.bg-image10 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/stop-gq-368x276.png');
-}
-
-.bg-image11 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/lynk-and-co-car-kids-millenials-future-phev-hyrid-share-car-share-368x276.png');
-}
-
-.bg-image12 {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/call-of-duty-warzone-modern-warfare-season-6.png');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/2Sqlyrn');
 }
 
 .post-details {
@@ -255,7 +235,7 @@ h2 {
 
 .article-hardfork > div > p {
   font-size: 0.8rem;
-  color: orangered;
+  /* color: orangered; */
   font-weight: bold;
 }
 
@@ -281,7 +261,6 @@ h2 {
 
 .article-hardfork > div {
   width: 70%;
-  background-color: #fffaf8;
   padding: 0.6rem;
   margin-top: -2%;
 }
@@ -382,7 +361,8 @@ h2 {
 
 .new-text {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  /* grid-template-columns: 2fr 1fr; */
+  grid-template-columns: repeat( auto-fit, minmax(225px, 0.8fr) );
   grid-template-rows: auto;
   grid-template-areas: 
     ".latest .new-text-img"
@@ -407,6 +387,12 @@ h2 {
   position: absolute;
   color: white;
   width: 300px;
+  font-weight: 700;
+}
+
+.hardfork-headline > p:nth-child(1) {
+  font-size: 13px;
+  padding-bottom: 5px;
 }
 
 .latest  {
