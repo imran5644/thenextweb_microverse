@@ -135,18 +135,18 @@ main > section:nth-child(5) > .section-title {
   grid-column: 1 / 4;
 }
 
-main > section:nth-child(2) > .news-post, 
+/* main > section:nth-child(2) > .news-post, 
 main > section:nth-child(5) > .news-post {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
+} */
 
-main > section:nth-child(2) > .news-post > img,
+/* main > section:nth-child(2) > .news-post > img,
 main > section:nth-child(5) > .news-post > img {
   width: 230px;
   height: 171px;
-}
+} */
 
 /* HERE STARTS HARD FORK SECTION*/
 
@@ -154,3 +154,26 @@ main > section:nth-child(5) > .news-post > img {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+}
+
+.column-post {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.newspost-images img {
+ height: 200px;
+ width: 220px;
+}
+
+.posts-details {
+  width: 220px;
+  padding-bottom: 1rem; 
+}
+
+

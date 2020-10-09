@@ -172,7 +172,7 @@ h2 {
   color: grey;
 } */
 
-.news-container {
+/* .news-container {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -200,9 +200,9 @@ h2 {
 .news-post > img {
   width: 75px;
   height: 75px;
-}
+} */
 
-.news-post-details {
+/* .news-post-details {
   display: inline-block;
   padding-top: 0.6rem;
   font-weight: 300;
@@ -212,7 +212,7 @@ h2 {
 
 .news-post-title {
   font-weight: 700;
-}
+} */
 
 .font-styling p {
   margin-top: 0.8rem;
@@ -466,4 +466,14 @@ h2 {
 .bullet-articles a {
   text-decoration: none;
   color: black;
+}
+
+.newspost-images img {
+  width: 100px;
+  height: 100px;
+}
+
+.posts-details {
+  padding-left: 0.5rem;
+  font-size: 14px;
 }
