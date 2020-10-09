@@ -394,9 +394,23 @@ h2 {
 .newspost-images img {
   width: 100px;
   height: 100px;
+  padding-bottom: 2px;
+  padding-top: 4px;
 }
 
 .posts-details {
   padding-left: 0.5rem;
   font-size: 14px;
+}
+
+.news-container {
+  padding-left: 1rem;
+}
+
+.news-post-title {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+  padding-bottom: 4px;
+  font-weight: 500;
+  padding-top: 6px;
 }
