@@ -1,3 +1,7 @@
+.nav-logo {
+  display: none;
+} */
+
 .nav-bar {
   display: flex;
   flex-direction: column;
@@ -80,29 +84,53 @@
     height: 32.7vh;
   }
 
-/* .news-container {
-  display: grid;
-  grid-template-columns: repeat(3, 270px);
-  grid-template-areas: 
-    "h3 h3 h3"
-    "div div div"
-    "div div div";
-  justify-content: space-evenly;
-  gap: 0;
+.news-container > .section-title {
+  padding-left: 16rem;
 }
 
-.news-container > h3 {
-  grid-column: 1 / 4;
-}
 
-.news-post {
+.funds-info {
   display: flex;
   flex-direction: column;
+  width: 64vw;
+  padding-left: 16.5vw;
 }
 
-.news-post > img{
-  max-width: 100%;
-} */
+.funds-info-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.funds-interact {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.funds-interact > p {
+  height: 22%;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.funds-interact > p:nth-child(1),
+.funds-interact > p:nth-child(2) {
+  border-right: 2px solid orangered;
+}
+
+.instacart {
+  display: block;
+}
+
+.ico-funds-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.address,
+.Company-name {
+  padding-left: 0.5rem;
+}
 
 /*FOOTER*/
 .footer-container {

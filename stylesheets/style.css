@@ -8,6 +8,10 @@
   display: flex;
 }
 
+.instacart {
+  display: none;
+}
+
 .flex-column {
   flex-direction: column;
 }
