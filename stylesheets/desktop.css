@@ -84,9 +84,9 @@
     height: 32.7vh;
   }
 
-.news-container > .section-title {
-  padding-left: 16rem;
-}
+ .news-container > .section-title {
+   padding-left: 16rem; 
+} 
 
 
 .funds-info {
@@ -157,4 +157,33 @@
 .posts-details {
   width: 220px;
   padding-bottom: 1rem; 
+}
+
+.hardfork-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* justify-content: center; */
+  padding-left: 20rem;
+  padding-top: 2rem;
+}
+
+.hardfork-img img {
+  width: 250px;
+}
+
+.hardfork-headline {
+  margin-top: -110px;
+}
+
+.hardfork-headline p{
+  width: 230px;
+}
+
+.new-text {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(220px, 0.4fr) );
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ".latest .new-text-img"
+    ".inside-text .new-text-img";
 }
