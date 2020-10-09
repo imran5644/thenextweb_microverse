@@ -161,14 +161,17 @@
 
 .hardfork-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 300px 300px 300px;
   /* justify-content: center; */
-  padding-left: 20rem;
+  /* padding-left: 20rem; */
   padding-top: 2rem;
+  justify-items: center;
+  gap: 4rem;
+
 }
 
 .hardfork-img img {
-  width: 250px;
+  width: 312px;
 }
 
 .hardfork-headline {
@@ -184,6 +187,7 @@
   grid-template-columns: repeat( auto-fit, minmax(220px, 0.4fr) );
   grid-template-rows: auto;
   grid-template-areas: 
-    ".latest .new-text-img"
-    ".inside-text .new-text-img";
+    "latest new-text-img"
+    "inside-text new-text-img";
+  justify-items: center;
 }
