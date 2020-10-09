@@ -1,61 +1,88 @@
-.nav-logo {
-  display: none;
-} */
-
-.nav-bar {
-  display: flex;
-  flex-direction: column;
+:root {
+  overflow-x: hidden;
 }
 
-.magnifier > i {
-  display: block;
-  align-self: end;
-  padding-right: 2.5rem;
-  font-size: 1rem;
-  color: grey;
+.nav-logo {
+  display: none;
+}
+
+.search-box {
+  display: none;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: sticky;
 }
 
 .top-navlinks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 15fr 1fr 1fr 1fr 1fr;
-  background-color: black;
+  grid-template-columns: 3% 3% 3% 3% 3% 70% 3% 3% 3% 3%;
   list-style: none;
+  background-color: black;
   font-size: 13px;
-  padding: 0;
+}
+
+.top-navlink {
+  text-decoration: none;
+  display: block;
+  color: #ccc;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.top-navlink:hover {
+  color: white;
 }
 
 .bottom-navlinks {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 10fr;
-  background-color: white;
+  grid-template-columns: 6% 8% 6% 6% 12% 5% 50% 5%;
   list-style: none;
-  font-size: 0.8rem;
-  padding: 0;
-  height: 6vh;
-  border-bottom: 0.5px solid lightgrey;
-  align-items: center;
+  justify-content: start;
+  font-size: 14px;
+  align-content: center;
 }
 
-.top-navlink,
-.bottom-navlink {
+.bottom-navlink:hover {
+  color: black;
+}
+
+.bottom-navlinks > li {
   display: inline-block;
+  padding: 1rem;
+}
+
+.bottom-navlink {
   text-decoration: none;
   color: grey;
-  padding: 0.4rem 0 0.4rem 0.4rem;
-}
-
-.bottom-navlink {
   text-transform: uppercase;
 }
 
-.nav-logo {
-  display: none;
+.news-nav-link > a {
+  color: white;
+}
+
+.about {
+  padding-right: -20rem;
+}
+
+.magnifier {
+  justify-self: end;
+  color: grey;
+  font-size: 18px;
+  padding-top: -10%;
+}
+
+.magnifier:hover {
+  color: black;
 }
 
 .headline-container {
     display: flex;
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
   }
   
   .two-column {
