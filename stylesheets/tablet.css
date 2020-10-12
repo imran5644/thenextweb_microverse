@@ -155,7 +155,7 @@ main > section:nth-child(5) > .section-title {
   grid-column: 1 / 4;
 }
 
-/* HERE STARTS HARD FORK SECTION*/
+/* HERE STARTS HARD FORK SECTION */
 
 .hardfork-section {
   display: grid;
@@ -174,13 +174,11 @@ main > section:nth-child(5) > .section-title {
 }
 
 .newspost-images img {
- height: 200px;
- width: 220px;
+  height: 200px;
+  width: 220px;
 }
 
 .posts-details {
   width: 220px;
-  padding-bottom: 1rem; 
+  padding-bottom: 1rem;
 }
-
-
