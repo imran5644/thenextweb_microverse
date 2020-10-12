@@ -2,81 +2,103 @@
   overflow-x: hidden;
 }
 
-.nav-logo {
+/* Hidden Stuff Desktop Version */
+
+.nav-search,
+.navbar-logo {
   display: none;
 }
 
-.search-box {
-  display: none;
-}
+/* Navbar Code */
 
-.menu-bar {
+.navbar {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  border-bottom: 0.5px solid lightgrey;
 }
 
-.top-navlinks {
-  display: grid;
-  grid-template-columns: 3% 3% 3% 3% 3% 70% 3% 3% 3% 3%;
-  list-style: none;
-  background-color: black;
-  font-size: 13px;
+.top-navlinks,
+.bottom-navlinks {
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
 }
 
-.top-navlink {
+.left-top-navlinks,
+.right-top-navlinks {
+  display: flex;
+  padding: 0.2rem;
+}
+
+.right-top-navlinks {
+  padding-right: 1rem;
+}
+
+.left-top-navlink > a,
+.right-top-navlink > a {
   text-decoration: none;
-  display: block;
-  color: #ccc;
-  padding: 0.5rem 0 0.5rem 1rem;
-}
-
-.top-navlink:hover {
-  color: white;
+  list-style: none;
+  color: lightgrey;
+  font-size: 0.7rem;
 }
 
 .bottom-navlinks {
-  display: grid;
-  grid-template-columns: 6% 8% 6% 6% 12% 5% 50% 5%;
+  background-color: #fff;
+}
+
+.left-bottom-navlinks {
+  display: flex;
+  padding: 0.8rem;
+  flex-grow: 22;
+}
+
+.left-bottom-navlink {
+  font-size: 0.9rem;
+  padding: 0.5rem;
   list-style: none;
-  justify-content: start;
-  font-size: 14px;
-  align-content: center;
 }
 
-.bottom-navlink:hover {
-  color: black;
-}
-
-.bottom-navlinks > li {
-  display: inline-block;
-  padding: 1rem;
-}
-
-.bottom-navlink {
+.left-bottom-navlink > a {
   text-decoration: none;
   color: grey;
-  text-transform: uppercase;
 }
 
-.news-nav-link > a {
+.right-bottom-navsearch > i {
+  position: relative;
+  top: calc(45% - 10px);
+  left: calc(50% - 10px);
+  color: lightgrey;
+  font-size: 1.3rem;
+  transform: rotateY(180deg)
+}
+
+.right-bottom-navsearch {
+  flex-grow: 1;
+  border-left: 0.5px solid lightgrey;
+}
+
+.left-top-navlink > a:hover,
+.right-top-navlink > a:hover {
   color: white;
 }
 
-.about {
-  padding-right: -20rem;
-}
-
-.magnifier {
-  justify-self: end;
-  color: grey;
-  font-size: 18px;
-  padding-top: -10%;
-}
-
-.magnifier:hover {
+.left-bottom-navlink > a:hover,
+.right-bottom-navlink > a:hover {
   color: black;
+}
+
+.right-bottom-navsearch > i:hover {
+  color: grey;
+}
+
+.left-top-navlinks > .left-top-navlink:nth-child(1) > a {
+  color: white;
 }
 
 .headline-container {

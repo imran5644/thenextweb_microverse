@@ -1,65 +1,93 @@
-.instacart {
+.shift,
+.neural,
+.instacart,
+.nav-search {
   display: none;
 }
 
-.nav-bar {
-  flex-grow: 1;
-  border-bottom: 1px solid lightgrey;
-  margin-bottom: 0.5rem;
+.navbar-logo {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.menu-bar {
+.navbar-logo > img {
+  width: 66px;
+  height: 16px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr;
+  width: 100%;
+  height: 46px;
+  top: 0;
+  /* left: 0; */
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+.navlinks {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  flex-grow: 4;
-}
-
-.nav-logo {
-  flex-grow: 1;
-  width: 17%;
 }
 
 .top-navlinks {
   display: flex;
-  justify-content: space-between;
-  font-size: 0.8rem;
   background-color: black;
-  list-style-type: none;
-  padding: 0.6rem;
+  justify-content: space-between;
 }
 
-.menu-bar > ul:nth-child(2) {
-  list-style-type: none;
-  text-transform: uppercase;
+.left-top-navlinks,
+.right-top-navlinks {
   display: flex;
+  list-style: none;
+  padding: 0.5em;
+  font-size: 0.9em;
+}
+
+.left-top-navlink > a,
+.right-top-navlink > a {
+  color: lightgrey;
+  display: inline-block;
+  padding: 0.5rem 0.2rem;
+  text-decoration: none;
+}
+
+.bottom-navlinks {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
-  align-items: center;
-  justify-content: flex-start;
-  font-size: 1rem;
 }
 
-.bottom-navlinks > li {
-  padding: 0.7rem;
+.right-bottom-navsearch {
+  flex-grow: 1;
 }
 
-.top-navlink,
-.bottom-navlink {
+.left-bottom-navlinks {
+  display: flex;
+  list-style: none;
+  font-size: 0.9em;
+}
+
+.left-bottom-navlink > a {
+  display: inline-block;
   text-decoration: none;
   color: grey;
+  padding: 1em 0.5em;
 }
 
-.magnifier {
-  text-align: center;
-  flex-grow: 2;
-}
-
-.terms {
-  padding-right: 0.8rem;
-}
-
-.search-box {
-  display: none;
+.right-bottom-navsearch > i {
+  position: relative;
+  top: calc(45% - 10px);
+  left: calc(80% - 10px);
+  color: lightgrey;
+  font-size: 1.3rem;
+  transform: rotateY(180deg);
+  flex-grow
 }
 
 .bg-image1 {
