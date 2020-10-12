@@ -2,11 +2,14 @@
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
 }
 
 .d-flex {
   display: flex;
+}
+
+.bottom-navlinks{
+  position: fixed;
 }
 
 .instacart {
@@ -46,7 +49,6 @@ h2 {
   height: 8%;
   top: 0;
   left: 0;
-  position: fixed;
   z-index: 99;
   background-color: white;
   border-bottom: 0.5px solid lightgrey;

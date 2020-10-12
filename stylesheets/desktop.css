@@ -22,7 +22,6 @@
   height: 10%;
   top: 0;
   left: 0;
-  position: fixed;
   z-index: 99;
   background-color: white;
   border-bottom: 0.5px solid lightgrey;
@@ -55,6 +54,7 @@
 
 .bottom-navlinks {
   background-color: #fff;
+  position: sticky;
 }
 
 .left-bottom-navlinks {
@@ -106,6 +106,17 @@
   color: white;
 }
 
+.tnw-background{
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 0;
+}
+
 .headline-container {
     display: flex;
     width: 100%;
@@ -138,17 +149,18 @@
     height: 32.7vh;
   }
 
- .news-container > .section-title {
-   margin-left: 6rem;
-   position: relative;
+ .news-container {
+   width: 78%;
+   margin-left: auto;
+   margin-right: auto;
 } 
-
 
 .funds-info {
   display: flex;
   flex-direction: column;
-  width: 64vw;
-  padding-left: 16.5vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .funds-info-details {
@@ -195,7 +207,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: 270px 270px 270px 270px;
-  justify-content: center;
 }
 
 .column-post {
@@ -217,8 +228,6 @@
 .hardfork-section {
   display: grid;
   grid-template-columns: 300px 300px 300px;
-  /* justify-content: center; */
-  /* padding-left: 20rem; */
   padding-top: 2rem;
   justify-items: center;
   gap: 4rem;
@@ -256,3 +265,4 @@ font-weight: 900;
   font-size: 40px;
   font-weight: 900;
 }
+

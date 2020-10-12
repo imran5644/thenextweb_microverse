@@ -167,19 +167,6 @@ main > section:nth-child(5) > .section-title {
   grid-column: 1 / 4;
 }
 
-/* main > section:nth-child(2) > .news-post, 
-main > section:nth-child(5) > .news-post {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-} */
-
-/* main > section:nth-child(2) > .news-post > img,
-main > section:nth-child(5) > .news-post > img {
-  width: 230px;
-  height: 171px;
-} */
-
 /* HERE STARTS HARD FORK SECTION*/
 
 .hardfork-section {
