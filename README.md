@@ -7,8 +7,11 @@
 A clone of The Next Web landing page made for the Microverse FullStack program.
 This is a responsive site and will scale as needed to different devices.
 
-![screenshot](screenshot.png)
+![desktop](screenshots/desktop.png)
 
+![tablet](screenshots/tablet.png)
+
+![mobile](screenshots/mobile.png)
 
 ## Built With
 
