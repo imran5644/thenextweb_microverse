@@ -7,6 +7,7 @@
 
 .navbar-logo {
   background-color: black;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +22,7 @@
   display: grid;
   grid-template-columns: 0.5fr 2.5fr;
   width: 100%;
-  height: 46px;
+  height: 10%;
   top: 0;
   /* left: 0; */
   position: fixed;
@@ -87,7 +88,6 @@
   color: lightgrey;
   font-size: 1.3rem;
   transform: rotateY(180deg);
-  flex-grow
 }
 
 .bg-image1 {
