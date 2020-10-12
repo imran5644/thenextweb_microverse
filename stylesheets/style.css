@@ -8,10 +8,6 @@
   display: flex;
 }
 
-.bottom-navlinks{
-  position: fixed;
-}
-
 .instacart {
   display: none;
 }
@@ -49,6 +45,7 @@ h2 {
   height: 8%;
   top: 0;
   left: 0;
+  position: fixed;
   z-index: 99;
   background-color: white;
   border-bottom: 0.5px solid lightgrey;

@@ -24,7 +24,7 @@
   width: 100%;
   height: 10%;
   top: 0;
-  /* left: 0; */
+  left: 0;
   position: fixed;
   z-index: 99;
   background-color: white;
@@ -142,18 +142,6 @@
 .Company-name {
   padding: 0;
   margin: 0;
-}
-
-.hardfork-details {
-  display: flex; 
-  width: 50vw;
-  height: auto;
-}
-
-.hardfork-column {
-  display: flex;
-  flex-direction: column;
-
 }
 
 main > section:nth-child(2),

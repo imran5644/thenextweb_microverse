@@ -1,7 +1,3 @@
-:root {
-  overflow-x: hidden;
-}
-
 /* Hidden Stuff Desktop Version */
 
 .nav-search,
@@ -23,6 +19,7 @@
   top: 0;
   left: 0;
   z-index: 99;
+  position: fixed;
   background-color: white;
   border-bottom: 0.5px solid lightgrey;
 }
@@ -54,7 +51,7 @@
 
 .bottom-navlinks {
   background-color: #fff;
-  position: sticky;
+  width: 100%;
 }
 
 .left-bottom-navlinks {
@@ -122,7 +119,7 @@
     width: 100%;
     padding-top: 1.5rem;
   }
-  
+
   .two-column {
     display: flex;
     flex-direction: column;
@@ -135,14 +132,14 @@
     margin-top: 5rem;
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/2GzQLFM');
   }
-  
+
   .bg-image2 {
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/3ixcqM0');
     width: 31vw;
     height: 32.7vh;
     margin-top: 5rem;
   }
-  
+
   .bg-image3 {
     background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/2Sqlyrn');
     width: 31vw;
@@ -150,15 +147,15 @@
   }
 
  .news-container {
-   width: 78%;
+   width: 60%;
    margin-left: auto;
    margin-right: auto;
-} 
+}
 
 .funds-info {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -206,32 +203,40 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 270px 270px 270px 270px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  align-items: center;
 }
 
 .column-post {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 100%;
+  margin-left: auto;
 }
 
 .newspost-images img {
- height: 200px;
- width: 220px;
+ height: 100%;
+ width: 80%;
 }
 
 .posts-details {
   width: 220px;
-  padding-bottom: 1rem; 
+  padding-bottom: 1rem;
 }
 
 .hardfork-section {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
   padding-top: 2rem;
   justify-items: center;
-  gap: 4rem;
-
+  gap: 1rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hardfork-img img {
@@ -250,7 +255,7 @@
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(220px, 0.4fr) );
   grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-areas:
     "latest new-text-img"
     "inside-text new-text-img";
   justify-items: center;
@@ -265,4 +270,3 @@ font-weight: 900;
   font-size: 40px;
   font-weight: 900;
 }
-
