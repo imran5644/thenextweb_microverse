@@ -7,7 +7,7 @@
 .d-flex {
   display: flex;
 }
-
+ 
 .instacart {
   display: none;
 }
@@ -45,7 +45,6 @@ h2 {
   height: 8%;
   top: 0;
   left: 0;
-  position: fixed;
   z-index: 99;
   background-color: white;
   border-bottom: 0.5px solid lightgrey;
@@ -76,23 +75,6 @@ h2 {
   font-size: 1.5em;
 }
 
-.email > i,
-.social-icons > a {
-  display: inline-block;
-  padding: 0.5rem;
-  text-decoration: none;
-}
-
-.email > a > i,
-.social-icons > a > i {
-  font-size: 1.8rem;
-  color: white;
-}
-
-.post-details > p > i {
-  padding: 0% 1% 0% 0%;
-}
-
 .nav-search > i:nth-child(1) {
   color: lightgrey;
   transform: rotateY(180deg);
@@ -120,15 +102,15 @@ h2 {
 }
 
 .bg-image1 {
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2GzQLFM');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/2GzQLFM');
 }
 
 .bg-image2 {
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/3ixcqM0');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/3ixcqM0');
 }
 
 .bg-image3 {
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2Sqlyrn');
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,0,1)), url('https://bit.ly/2Sqlyrn');
 }
 
 .post-details {
@@ -139,6 +121,17 @@ h2 {
 
 .post-details > * {
   padding: 0% 2% 0% 0%;
+}
+
+.email > i,
+.social-icons > a {
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.post-details > p > i {
+  padding: 0% 1% 0% 0%;
 }
 
 .section-title {
@@ -194,6 +187,7 @@ h2 {
   font-size: 0.8rem;
   margin-bottom: 0.4rem;
   margin-top: -1.5rem;
+  padding-left: 1rem;
 }
 
 .address-details p {
@@ -201,7 +195,7 @@ h2 {
 }
 
 .ico-details {
-  padding-left: 2rem;
+  padding-left: 1.3rem;
 }
 
 .ico-details .tech {
@@ -210,7 +204,6 @@ h2 {
 
 .article-hardfork > div > p {
   font-size: 0.8rem;
-
   /* color: orangered; */
   font-weight: bold;
 }
@@ -262,11 +255,6 @@ h2 {
   padding: 0.8rem 0.8rem 0.5rem 0.8rem;
 }
 
-.bullet-articles a {
-  text-decoration: none;
-  color: black;
-}
-
 .bulleted-articles > li > a {
   text-decoration: none;
   color: lightslategray;
@@ -279,39 +267,11 @@ h2 {
   margin-top: 1rem;
 }
 
-.bullet-articles li {
-  width: 320px;
-  border-bottom: 1px solid grey;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: small;
-}
-
-.newspost-images img {
-  width: 100px;
-  height: 100px;
-  padding-bottom: 2px;
-  padding-top: 4px;
-}
-
 .bottom-section {
   background-color: black;
   justify-content: center;
   align-items: center;
   padding: 2rem;
-}
-
-.hardfork-img img {
-  width: 320px;
-  height: 250px;
-  position: relative;
-}
-
-.new-text img {
-  width: 100px;
-  height: 100px;
-  margin-left: -6.4px;
 }
 
 .bottom-section > span > img {
@@ -327,6 +287,12 @@ h2 {
 
 .email {
   justify-content: center;
+}
+
+.email > a > i,
+.social-icons > a > i {
+  font-size: 1.8rem;
+  color: white;
 }
 
 .footer-links {
@@ -365,15 +331,22 @@ h2 {
 
 .new-text {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 0.8fr));
+  grid-template-columns: repeat( auto-fit, minmax(225px, 0.8fr) );
   grid-template-rows: auto;
-  grid-template-areas:
+  grid-template-areas: 
     ".latest .new-text-img"
     ".inside-text .new-text-img";
 }
 
+
 .bg-image4 > span {
   color: white;
+}
+
+.hardfork-img img{
+  width: 320px;
+  height: 250px;
+  position: relative;
 }
 
 .hardfork-headline {
@@ -391,10 +364,41 @@ h2 {
   padding-bottom: 5px;
 }
 
-.latest {
+.latest  {
   width: 210px;
   background-color: #fffaf8;
   color: orangered;
+}
+
+.new-text img {
+  width: 100px;
+  height:100px;
+  margin-left: -6.4px;
+}
+
+.grey {
+  color: gray;
+}
+
+.bullet-articles li{
+  width: 320px;
+  border-bottom: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+}
+
+.bullet-articles a {
+  text-decoration: none;
+  color: black;
+}
+
+.newspost-images img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 2px;
+  padding-top: 4px;
 }
 
 .posts-details {

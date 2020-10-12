@@ -34,7 +34,7 @@
 .left-top-navlinks,
 .right-top-navlinks {
   display: flex;
-  padding: 0.2rem;
+  padding: 0.6rem;
 }
 
 .right-top-navlinks {
@@ -111,7 +111,7 @@
   height: 50%;
   width: 50%;
   position: relative;
-  top: 0;
+  top: -6em;
 }
 
 .headline-container {
@@ -155,7 +155,7 @@
 .funds-info {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -224,12 +224,13 @@
 
 .newspost-images img {
   height: 100%;
-  width: 80%;
+  width: 90%;
 }
 
 .posts-details {
-  width: 220px;
+  width: 200px;
   padding-bottom: 1rem;
+  margin-left: -0.4rem;
 }
 
 .hardfork-section {
@@ -248,7 +249,7 @@
 }
 
 .hardfork-headline {
-  margin-top: -110px;
+  margin-top: -125px;
 }
 
 .new-text {
