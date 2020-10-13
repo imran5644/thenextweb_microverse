@@ -411,6 +411,23 @@ h2 {
   flex-direction: row;
 }
 
+.title-and-sub-deals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-deals {
+  font-size: 1.2em;
+  color: orangered;
+  align-self: center;
+  padding-right: 3em;
+  padding-top: 1em;
+}
+
+.all-deals:hover {
+  color: black;
+}
+
 @media (min-width: 600px) and (max-width: 767.5px) {
   .hardfork-img img {
     width: 640px;

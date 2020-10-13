@@ -343,9 +343,9 @@
     flex-direction: column;
   }
 
-  .funds-interact {
+  /* .funds-interact {
     align-self: start;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {
