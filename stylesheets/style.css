@@ -212,6 +212,12 @@ h2 {
   color: darkgray;
 }
 
+.hardfork-headline p {
+  color: white;
+  padding-left: 1rem;
+  width: 295px;
+}
+
 .address-details p:nth-child(1) {
   margin-top: 1.4rem;
 }
@@ -292,6 +298,11 @@ h2 {
   padding-top: 4px;
 }
 
+.hardfork-img img {
+  width: 320px;
+  height: 280px;
+}
+
 .bottom-section > span > img {
   width: 37px;
   height: 9px;
@@ -335,6 +346,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(225px, 100%));
   grid-template-rows: auto;
+  width: 270px;
   grid-template-areas:
     ".latest .new-text-img"
     ".inside-text .new-text-img";
@@ -373,42 +385,26 @@ h2 {
   padding-left: 1rem;
 }
 
-.hardfork-img img {
-  width: 320px;
-  height: 280px;
-}
-
 .hardfork-headline {
   position: absolute;
   margin-top: -7rem;
-}
-
-.hardfork-headline p {
-  color: white;
-  padding-left: 1rem;
-  width: 295px;
 }
 
 .grey {
   color: grey;
 }
 
-.new-text{
-  width: 270px;
-}
-
-@media (min-width:600px) and (max-width: 767.5px){
+@media (min-width: 600px) and (max-width: 767.5px) {
   .hardfork-img img {
     width: 640px;
     height: 280px;
   }
 
-  .new-text{
+  .new-text {
     width: 600px;
   }
 
   .new-text img {
     margin-right: -2.5rem;
   }
-  
 }

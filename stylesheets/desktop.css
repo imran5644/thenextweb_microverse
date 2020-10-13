@@ -91,6 +91,10 @@
   border-left: 0.5px solid lightgrey;
 }
 
+.post-details > i {
+  padding: 0 0.2em;
+}
+
 .left-top-navlink > a:hover,
 .right-top-navlink > a:hover {
   color: white;
@@ -142,10 +146,6 @@
 .post-details {
   grid-row: 3/4;
   padding-top: 1em;
-}
-
-.post-details > i {
-  padding: 0 0.2em;
 }
 
 .two-column {
@@ -304,7 +304,7 @@
   width: 70%;
 }
 
-@media (max-width:1024px){
+@media (max-width: 1024px) {
   .boost {
     display: none;
   }
@@ -313,7 +313,7 @@
     padding-left: 7rem;
   }
 
-  .section-title{
+  .section-title {
     padding-left: 0.6rem;
   }
 }
