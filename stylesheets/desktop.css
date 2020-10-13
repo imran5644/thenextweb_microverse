@@ -358,7 +358,7 @@
   }
 }
 
-@media (max-width:1201px){
+@media (min-width:1190px){
   .new-text span {
     width: 180px;
     margin-left: -30px;
