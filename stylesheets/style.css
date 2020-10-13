@@ -241,26 +241,9 @@ h2 {
   height: 12rem;
 }
 
-.article-hardfork > div {
-  width: 70%;
-  padding: 0.6rem;
-  margin-top: -2%;
-}
-
-.article-hardfork > div > h3 {
-  font-size: 1rem;
-  font-weight: 300;
-  color: orangered;
-}
-
-.article-hardfork > img {
-  width: 30%;
-  height: 80%;
-}
-
 .bulleted-articles {
   padding: 1.5rem;
-  width: 85vw;
+  width: 100%;
 }
 
 .bulleted-articles > li {
@@ -274,7 +257,7 @@ h2 {
 }
 
 .bullet-articles li {
-  width: 320px;
+  width: 100%;
   border-bottom: 1px solid grey;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -361,14 +344,15 @@ h2 {
 
 .hardfork-section {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   justify-content: center;
+  padding-right: 5rem;
+  padding-left: 2rem;
 }
 
 .article-hardfork {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr 2fr;
+  grid-template-columns: 100%;
   grid-template-areas: 
     "section-title"
     "hardfork-img"
@@ -376,21 +360,9 @@ h2 {
     "bullet-articles";
 }
 
-.hardfork-img {
-  /* background-image: url('https://rb.gy/1g9gjj'); */
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://rb.gy/1g9gjj');
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 100%;
-  height: 100%;
-}
-
-
 .new-text {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(225px, 0.8fr));
+  grid-template-columns: repeat(auto-fit, minmax(225px, 100%));
   grid-template-rows: auto;
   grid-template-areas:
     ".latest .new-text-img"
@@ -417,7 +389,7 @@ h2 {
 }
 
 .latest {
-  width: 210px;
+  width: 100%;
   background-color: #fffaf8;
   color: orangered;
 }
@@ -442,6 +414,5 @@ h2 {
 @media (min-width: 767px) {
   .hardfork-section {
     width: 100%;
-    border: 1px solid black;
   }
 }
