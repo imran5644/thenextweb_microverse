@@ -31,6 +31,11 @@
   justify-content: space-between;
 }
 
+.left-top-navlink,
+.right-top-navlink {
+  list-style: none;
+}
+
 .left-top-navlinks,
 .right-top-navlinks {
   display: flex;
@@ -46,7 +51,7 @@
   text-decoration: none;
   list-style: none;
   color: lightgrey;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   padding: 0.6rem;
 }
 
@@ -106,13 +111,10 @@
 
 .tnw-background {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg');
-  background-position: center;
-  background-size: 100%;
+  background-position: left 10%;
+  background-size: 60%;
   background-repeat: no-repeat;
-  height: 50%;
-  width: 50%;
-  position: relative;
-  top: -6em;
+  grid-column: 1/2;
 }
 
 .headline-container {
@@ -121,10 +123,35 @@
   padding-top: 1.5rem;
 }
 
+.headline-container > .headline-post:nth-child(1) {
+  display: grid;
+  grid-template-rows: 4fr 1.5fr 0.5fr;
+  grid-template-areas:
+    "tnw-background date"
+    "headline-font"
+    "post-details";
+}
+
+.date {
+  grid-column: 2/3;
+  color: white;
+  font-size: 1em;
+  padding-top: 1em;
+}
+
+.post-details {
+  grid-row: 3/4;
+  padding-top: 1em;
+}
+
+.post-details > i {
+  padding: 0 0.2em;
+}
+
 .two-column {
   display: flex;
   flex-direction: column;
-  margin-left: 0.5rem;
+  margin-left: 0.5em;
 }
 
 .bg-image1 {
@@ -264,11 +291,11 @@
 }
 
 .headline-font {
-  font-size: 50px;
+  font-size: 6vh;
   font-weight: 900;
 }
 
 .headline2-font {
-  font-size: 40px;
+  font-size: 2vh;
   font-weight: 900;
 }

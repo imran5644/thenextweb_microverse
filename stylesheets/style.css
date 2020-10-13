@@ -68,10 +68,6 @@ h2 {
   height: 16px;
 }
 
-.nav-search > i {
-  font-size: 1.5em;
-}
-
 .email > i,
 .social-icons > a {
   display: inline-block;
@@ -90,20 +86,28 @@ h2 {
   justify-content: space-around;
   align-items: center;
   width: 25%;
+  border-left: 0.1rem solid #e6e6e6;
 }
 
 .post-details > p > i {
-  padding: 0% 1% 0% 0%;
+  padding: 0 0.4rem;
 }
 
 .nav-search > i:nth-child(1) {
   color: lightgrey;
   transform: rotateY(180deg);
   font-size: 1.3em;
+  padding-left: -2.5rem;
 }
 
 .nav-search > i:nth-child(2) {
   color: orangered;
+  font-size: 1.3em;
+  display: block;
+  padding-left: 0.6rem;
+  padding-top: 1.4rem;
+  height: 70%;
+  border-left: 0.1rem solid #e6e6e6;
 }
 
 .headline-container {
