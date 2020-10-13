@@ -299,3 +299,17 @@
   font-size: 2vh;
   font-weight: 900;
 }
+
+@media (max-width:1024px){
+  .boost {
+    display: none;
+  }
+
+  .hardfork-section {
+    padding-left: 7rem;
+  }
+
+  .section-title{
+    padding-left: 0.6rem;
+  }
+}

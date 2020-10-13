@@ -419,3 +419,9 @@ h2 {
   font-weight: 500;
   padding-top: 6px;
 }
+
+@media (min-width: 767px) {
+  .article-hardfork {
+    width: 100%;
+  }
+}
