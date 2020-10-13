@@ -283,6 +283,11 @@
   margin-top: -125px;
 }
 
+.new-text span {
+  width: 140px;
+  margin-left: -5rem;
+}
+
 .new-text {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 0.4fr));
@@ -293,9 +298,9 @@
   justify-items: center;
 }
 
-/* .next-text-img {
-  width: 100%;
-} */
+.new-text img {
+  margin-left: -6.2rem;
+}
 
 .headline-font {
   font-size: 6vh;
@@ -343,9 +348,7 @@
   }
 }
 
-.new-text img {
-  margin-left: -1.1rem;
-}
+
 
 @media screen and (max-width: 1200px) {
   .news-container {
