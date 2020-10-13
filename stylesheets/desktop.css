@@ -348,8 +348,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 1200px) {
   .news-container {
     width: 90%;
@@ -358,7 +356,7 @@
   }
 }
 
-@media (min-width:1190px){
+@media (min-width: 1190px) {
   .new-text span {
     width: 180px;
     margin-left: -30px;
