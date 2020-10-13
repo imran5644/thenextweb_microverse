@@ -175,7 +175,7 @@
 }
 
 .news-container {
-  width: 60%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -191,12 +191,14 @@
 .funds-info-details {
   display: flex;
   justify-content: space-between;
+  height: 7vh;
 }
 
 .funds-interact {
   display: flex;
   justify-content: space-around;
   align-self: center;
+  padding-top: 2rem;
 }
 
 .funds-interact > p {
@@ -220,7 +222,7 @@
 .ico-funds-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
 }
 
 .address,
@@ -256,7 +258,7 @@
 }
 
 .posts-details {
-  width: 200px;
+  width: 92%;
   padding-bottom: 1rem;
   margin-left: -0.4rem;
 }
@@ -266,14 +268,15 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 2rem;
   justify-items: center;
-  gap: 1rem;
-  width: 70%;
+  gap: 0.1rem;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 }
 
 .hardfork-img img {
-  width: 312px;
+  width: 80%;
 }
 
 .hardfork-headline {
@@ -290,6 +293,10 @@
   justify-items: center;
 }
 
+/* .next-text-img {
+  width: 100%;
+} */
+
 .headline-font {
   font-size: 6vh;
   font-weight: 900;
@@ -304,6 +311,16 @@
   width: 70%;
 }
 
+.bottom-section {
+  flex-direction: row;
+  display: block;
+  text-align: center;
+}
+
+.powered {
+  display: inline;
+}
+
 @media (max-width: 1024px) {
   .boost {
     display: none;
@@ -315,5 +332,21 @@
 
   .section-title {
     padding-left: 0.6rem;
+  }
+
+  .funds-info-details {
+    flex-direction: column;
+  }
+
+  .funds-interact {
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .news-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

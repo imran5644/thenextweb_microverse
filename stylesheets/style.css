@@ -64,14 +64,14 @@ h2 {
   height: 16px;
 }
 
-.email > i,
+.email,
 .social-icons > a {
   display: inline-block;
   padding: 0.5rem;
   text-decoration: none;
 }
 
-.email > a > i,
+.email > i,
 .social-icons > a > i {
   font-size: 1.8rem;
   color: white;
@@ -375,8 +375,12 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.5px;
   padding-bottom: 4px;
-  font-weight: 500;
+  font-weight: bold;
   padding-top: 6px;
+}
+
+.news-post-details {
+  color: #cecece;
 }
 
 .hardfork-section {
@@ -392,6 +396,19 @@ h2 {
 
 .grey {
   color: grey;
+}
+
+.stackpath {
+  width: 4rem;
+  height: rem;
+  display: inline-block;
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+}
+
+.powered {
+  display: flex;
+  flex-direction: row;
 }
 
 @media (min-width: 600px) and (max-width: 767.5px) {
