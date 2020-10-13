@@ -207,7 +207,7 @@
 }
 
 .hardfork-headline p {
-  width: 230px;
+  width: 200px;
 }
 
 .funds-interact > p:nth-child(1),
@@ -341,6 +341,10 @@
   .funds-interact {
     align-self: start;
   }
+}
+
+.new-text img {
+  margin-left: -1.1rem;
 }
 
 @media screen and (max-width: 1200px) {
