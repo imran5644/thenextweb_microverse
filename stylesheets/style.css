@@ -234,12 +234,16 @@ h2 {
 
 .bulleted-articles {
   padding: 1.5rem;
-  width: 100%;
+  width: 70%;
 }
 
 .bulleted-articles > li {
   border-bottom: 1px solid lightcoral;
   padding: 0.8rem 0.8rem 0.5rem 0.8rem;
+}
+
+.bullet-articles {
+  margin-left: 1rem;
 }
 
 .bullet-articles a {
@@ -248,7 +252,7 @@ h2 {
 }
 
 .bullet-articles li {
-  width: 100%;
+  width: 90%;
   border-bottom: 1px solid grey;
   padding-top: 10px;
   padding-bottom: 10px;

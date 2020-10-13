@@ -300,6 +300,10 @@
   font-weight: 900;
 }
 
+.bullet-articles li {
+  width: 70%;
+}
+
 @media (max-width:1024px){
   .boost {
     display: none;
