@@ -1,7 +1,6 @@
 /* Hidden Stuff Desktop Version */
 
-.nav-search,
-.navbar-logo {
+.nav-search {
   display: none;
 }
 
@@ -9,13 +8,18 @@
   display: block;
 }
 
+.navbar-logo {
+  width: 100%;
+}
+
 /* Navbar Code */
 
 .navbar {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 10%;
+  display: grid;
+  grid-template-areas:
+    "navbar-logo navlinks";
+  grid-template-columns: 5% 95%;
+  width: 100vw;
   top: 0;
   left: 0;
   z-index: 99;
@@ -341,11 +345,14 @@
 
   .funds-info-details {
     flex-direction: column;
+    height: auto;
+    justify-content: center;
   }
 
-  /* .funds-interact {
+  .funds-interact {
     align-self: start;
-  } */
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1200px) {
