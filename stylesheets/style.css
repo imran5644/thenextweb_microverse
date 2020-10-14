@@ -42,7 +42,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 8vh;
+  height: 60px;
   top: 0;
   left: 0;
   z-index: 99;
@@ -544,10 +544,16 @@ h2 {
   color: orangered;
 }
 
+.text-and-image {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  background-color: #ffebe8;
+}
+
 .text-and-image > span {
   padding: 1em;
   color: orangered;
-  font-size: 0.9em;
+  font-size: 0.7em;
   font-weight: bold;
 }
 
@@ -569,5 +575,17 @@ h2 {
 
   .new-text img {
     margin-right: -2.5rem;
+  }
+}
+
+@media (min-width: 290px) and (max-width: 337px) {
+  .footer-links,
+  .contact-footer {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-footer {
+    padding-top: 0.3rem;
   }
 }

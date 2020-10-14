@@ -284,6 +284,16 @@ main > section:nth-child(5) > .section-title {
   color: orangered;
 }
 
+.bottom-section,
+.powered {
+  display: block;
+  text-align: center;
+}
+
+.powered {
+  display: inline;
+}
+
 .articles-bullet > li {
   border-bottom: 0.5px solid #ffebe8;
   padding: 0.5em 0;
@@ -298,7 +308,7 @@ main > section:nth-child(5) > .section-title {
   font-weight: bold;
 }
 
-.news-container {
+main > section:nth-child(5) {
   margin-top: -8rem;
 }
 
