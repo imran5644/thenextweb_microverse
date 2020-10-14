@@ -450,7 +450,7 @@ h2 {
 
 .article-hardfork-new {
   display: grid;
-  grid-template-rows: 5vh 30vh 10vh 45vh;
+  grid-template-rows: 5vh 30vh 10vh 40vh;
   grid-template-areas:
     "article-hardfork-title"
     "article-hardfork-img"

@@ -301,4 +301,8 @@ main > section:nth-child(5) > .section-title {
   font-weight: bold;
 }
 
+.news-container{
+  margin-top: -8rem;
+}
+
 /* New HardFork section ends here */
