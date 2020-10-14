@@ -1,0 +1,315 @@
+.shift,
+.neural,
+.instacart,
+.nav-search {
+  display: none;
+}
+
+.navbar-logo {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo > img {
+  width: 66px;
+  height: 16px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-navlinks {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.left-top-navlinks,
+.right-top-navlinks {
+  display: flex;
+  list-style: none;
+  padding: 0.5em;
+  font-size: 0.9em;
+}
+
+.left-top-navlink > a,
+.right-top-navlink > a {
+  color: lightgrey;
+  display: inline-block;
+  padding: 0.5rem 0.2rem;
+  text-decoration: none;
+}
+
+.bottom-navlinks {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.right-bottom-navsearch {
+  flex-grow: 1;
+}
+
+.left-bottom-navlinks {
+  display: flex;
+  list-style: none;
+  font-size: 0.9em;
+}
+
+.left-bottom-navlink > a {
+  display: inline-block;
+  text-decoration: none;
+  color: grey;
+  padding: 1em 0.5em;
+}
+
+.right-bottom-navsearch > i {
+  position: relative;
+  top: calc(45% - 10px);
+  left: calc(80% - 10px);
+  color: lightgrey;
+  font-size: 1.3rem;
+  transform: rotateY(180deg);
+}
+
+.bg-image1 {
+  background-image: url('https://bit.ly/2GzQLFM');
+  width: 50vw;
+  height: 40vh;
+  margin-top: 5rem;
+}
+
+.bg-image2 {
+  background-image: url('https://bit.ly/3ixcqM0');
+  width: 30vw;
+  height: 18.5vh;
+  margin-top: 5rem;
+}
+
+.bg-image3 {
+  background-image: url('https://bit.ly/2Sqlyrn');
+  width: 30vw;
+  height: 18.9vh;
+}
+
+.headline-container {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+
+.two-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.ico-funds-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boost,
+.malomo,
+.venture {
+  width: 30%;
+  height: 100%;
+}
+
+.malomo > div > div {
+  height: 51.8px;
+}
+
+.address,
+.Company-name {
+  padding: 0;
+  margin: 0;
+}
+
+main > section:nth-child(2),
+main > section:nth-child(5) {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 1rem;
+}
+
+main > section:nth-child(2) > .section-title,
+main > section:nth-child(5) > .section-title {
+  grid-column: 1 / 4;
+}
+
+/* HERE STARTS HARD FORK SECTION */
+
+.hardfork-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+}
+
+.column-post {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.newspost-images img {
+  height: 200px;
+  width: 220px;
+}
+
+.posts-details {
+  width: 220px;
+  padding-bottom: 1rem;
+}
+
+/* New HardFork section start here */
+
+.hardfork-section-new {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 2rem;
+}
+
+.article-hardfork-new {
+  display: grid;
+  grid-template-rows: 5vh 30vh 10vh 30vh;
+  grid-template-areas:
+    "article-hardfork-title"
+    "article-hardfork-img"
+    "text-and-image"
+    "articles-bullet";
+}
+
+.article-hardfork-title {
+  color: orangered;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.flexme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.popular {
+  padding: 0 0 0.5em 2em;
+  color: white;
+}
+
+.popular,
+.article-hardfork-title-img {
+  color: white;
+  padding: 0 0 0.5em 0.3em;
+}
+
+.article-hardfork-title-img {
+  font-size: 1.5em;
+}
+
+.article-hardfork-details {
+  color: lightgrey;
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+
+.bg-image,
+.img-textandimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+}
+
+.img1 {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2GzQLFM');
+}
+
+.img2 {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Netflix-Featured_1-796x417.jpg');
+}
+
+.img3 {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FCropped-Apple-iPhone-2020-October-Event-hed.jpg&signature=7f856702b0d7d653b6c21385829d4191');
+}
+
+.text-and-image {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  background-color: #ffebe8;
+}
+
+.img-textandimg1 {
+  background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fimage-2-3.png&signature=46eb8974a30417f8bb01e6dd9323c395');
+}
+
+.img-textandimg2 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-11T182518.964-796x417.png');
+}
+
+.img-textandimg3 {
+  background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FSnag_2c5b02a1.png&signature=6089850ac90dcda000429fe9ad802e62');
+}
+
+.inner-latest {
+  color: orangered;
+}
+
+.articles-bullet {
+  padding: 1.2em;
+  color: orangered;
+}
+
+.bottom-section,
+.powered {
+  display: block;
+  text-align: center;
+}
+
+.powered {
+  display: inline;
+}
+
+.articles-bullet > li {
+  border-bottom: 0.5px solid #ffebe8;
+  padding: 0.5em 0;
+  font-size: 0.9em;
+  color: grey;
+}
+
+.text-and-image > span {
+  padding: 1em;
+  color: orangered;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+main > section:nth-child(5) {
+  margin-top: -8rem;
+}
+
+/* New HardFork section ends here */
