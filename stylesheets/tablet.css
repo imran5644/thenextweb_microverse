@@ -260,6 +260,7 @@ main > section:nth-child(5) > .section-title {
 .text-and-image {
   display: grid;
   grid-template-columns: 80% 20%;
+  background-color: #ffebe8;
 }
 
 .img-textandimg1 {
@@ -272,10 +273,6 @@ main > section:nth-child(5) > .section-title {
 
 .img-textandimg3 {
   background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FSnag_2c5b02a1.png&signature=6089850ac90dcda000429fe9ad802e62');
-}
-
-.text-and-image {
-  background-color: #ffebe8;
 }
 
 .inner-latest {
@@ -301,7 +298,7 @@ main > section:nth-child(5) > .section-title {
   font-weight: bold;
 }
 
-.news-container{
+.news-container {
   margin-top: -8rem;
 }
 

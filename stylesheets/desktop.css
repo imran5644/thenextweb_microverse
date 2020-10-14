@@ -16,8 +16,7 @@
 
 .navbar {
   display: grid;
-  grid-template-areas:
-    "navbar-logo navlinks";
+  grid-template-areas: "navbar-logo navlinks";
   grid-template-columns: 5% 95%;
   width: 100vw;
   top: 0;
@@ -141,6 +140,7 @@
 }
 
 .date {
+  display: block;
   grid-column: 2/3;
   color: white;
   font-size: 1em;
@@ -346,7 +346,7 @@
 
 .article-hardfork-new {
   display: grid;
-  grid-template-rows: 5vh 30vh 10vh 40vh;
+  grid-template-rows: 5vh 30vh 10vh 25vh;
   grid-template-areas:
     "article-hardfork-title"
     "article-hardfork-img"
@@ -410,6 +410,7 @@
 .text-and-image {
   display: grid;
   grid-template-columns: 80% 20%;
+  background-color: #ffebe8;
 }
 
 .img-textandimg1 {
@@ -422,10 +423,6 @@
 
 .img-textandimg3 {
   background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FSnag_2c5b02a1.png&signature=6089850ac90dcda000429fe9ad802e62');
-}
-
-.text-and-image {
-  background-color: #ffebe8;
 }
 
 .inner-latest {
