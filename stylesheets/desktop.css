@@ -330,6 +330,8 @@
   display: inline;
 }
 
+/* New HardFork section start here */
+
 .hardfork-section-new {
   display: grid;
   grid-template-areas:
@@ -344,7 +346,7 @@
 
 .article-hardfork-new {
   display: grid;
-  grid-template-rows: 5vh 30vh 10vh 55vh;
+  grid-template-rows: 5vh 30vh 10vh 40vh;
   grid-template-areas:
     "article-hardfork-title"
     "article-hardfork-img"
@@ -449,6 +451,8 @@
   font-weight: bold;
 }
 
+/* New HardFork section ends here */
+
 @media (max-width: 1024px) {
   .boost {
     display: none;
@@ -479,6 +483,10 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .article-hardfork-new {
+    grid-template-rows: 5vh 30vh 10vh 40vh;
   }
 }
 

@@ -182,3 +182,123 @@ main > section:nth-child(5) > .section-title {
   width: 220px;
   padding-bottom: 1rem;
 }
+
+/* New HardFork section start here */
+
+.hardfork-section-new {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-gap: 2rem;
+}
+
+.article-hardfork-new {
+  display: grid;
+  grid-template-rows: 5vh 30vh 10vh 30vh;
+  grid-template-areas:
+    "article-hardfork-title"
+    "article-hardfork-img"
+    "text-and-image"
+    "articles-bullet";
+}
+
+.article-hardfork-title {
+  color: orangered;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.flexme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.popular {
+  padding: 0 0 0.5em 2em;
+  color: white;
+}
+
+.popular,
+.article-hardfork-title-img {
+  color: white;
+  padding: 0 0 0.5em 0.3em;
+}
+
+.article-hardfork-title-img {
+  font-size: 1.5em;
+}
+
+.article-hardfork-details {
+  color: lightgrey;
+  padding: 0.5em;
+  font-size: 0.8em;
+}
+
+.bg-image,
+.img-textandimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+}
+
+.img1 {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://bit.ly/2GzQLFM');
+}
+
+.img2 {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Netflix-Featured_1-796x417.jpg');
+}
+
+.img3 {
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1)), url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FCropped-Apple-iPhone-2020-October-Event-hed.jpg&signature=7f856702b0d7d653b6c21385829d4191');
+}
+
+.text-and-image {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.img-textandimg1 {
+  background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2Fimage-2-3.png&signature=46eb8974a30417f8bb01e6dd9323c395');
+}
+
+.img-textandimg2 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-11T182518.964-796x417.png');
+}
+
+.img-textandimg3 {
+  background-image: url('https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F10%2FSnag_2c5b02a1.png&signature=6089850ac90dcda000429fe9ad802e62');
+}
+
+.text-and-image {
+  background-color: #ffebe8;
+}
+
+.inner-latest {
+  color: orangered;
+}
+
+.articles-bullet {
+  padding: 1.2em;
+  color: orangered;
+}
+
+.articles-bullet > li {
+  border-bottom: 0.5px solid #ffebe8;
+  padding: 0.5em 0;
+  font-size: 0.9em;
+  color: grey;
+}
+
+.text-and-image > span {
+  padding: 1em;
+  color: orangered;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/* New HardFork section ends here */
