@@ -368,7 +368,6 @@
     "article-hardfork-img"
     "text-and-image"
     "articles-bullet";
-   padding-top: 2rem;
 }
 
 .article-hardfork-title {
@@ -428,7 +427,6 @@
   display: grid;
   grid-template-columns: 80% 20%;
   background-color: #ffebe8;
-  height: auto;
 }
 
 .img-textandimg1 {
@@ -464,10 +462,6 @@
   color: orangered;
   font-size: 0.9em;
   font-weight: bold;
-}
-
-.margin-top {
-  margin-top: 4rem;
 }
 
 /* New HardFork section ends here */
@@ -521,11 +515,12 @@
 }
 
 @media (min-width: 1390px) {
-  .article-hardfork-new {
-    margin-top: 5rem;
+  .new-text span {
+    width: 230px;
+    margin-left: 8px;
   }
 
-  .margin-top {
-    margin-top: 6rem;
+  .new-text img {
+    margin-left: 16px;
   }
 }
